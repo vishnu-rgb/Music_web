@@ -14,13 +14,14 @@
         <div class="navbar">
             <img src="logo.jpg" alt="logo" class="responsive">
             <ul>
-                   <li>
+                   
                        <a href="#">HOME</a>
                        <a href="#">ABOUT</a>
                        <a href="#">SPECIFICATIONS</a>
-                       <a href="#">CONNECT</a>
-                   </li> 
-            </ul>
+                       <a href="#" class="select" id="sel">SELECT</a>
+                    
+                </ul>
+                  
             <div class="content">
                 <div class="left-col">
                     
@@ -35,7 +36,7 @@
                 </div>
             </div>
             <audio id="mySong">
-                <source src="Media/Andra Day - Rise Up (Lyrics).mp3" type="audio/mp3">
+                <source src="Media/Trevor Daniel - Falling.mp3" type="audio/mp3">
             </audio>
             <script>
                 var mySong= document.getElementById("mySong")
@@ -52,6 +53,12 @@
                         icon.src ="media/play.png"
 
                     }
+                }
+            </script>
+            <script>   
+                var select = document.getElementById("sel")
+                select.onclick = function(){
+                    
                 }
             </script>
 
